@@ -1,0 +1,6 @@
+NJModelServiceSDK
+.vscode
+/swig/python/test2.py
+/swig/python/test.py
+/swig/python/*.pyc
+/swig/python/requests/*.pyc
