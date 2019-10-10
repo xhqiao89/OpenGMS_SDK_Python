@@ -1,6 +1,6 @@
-# Author : Fengyuan(Franklin) Zhang
-# Date : 2019/1/4
-# Description : Test for service SDK
+# Author : Xiaohui Qiao
+# Date : 2019/10/4
+# Description : Script to run streamflow prediction service for Bangladesh
 from __init__ import OGMSService_DEBUG
 import datetime
 
@@ -9,7 +9,7 @@ server = OGMSService_DEBUG.CreateServer("127.0.0.1", 8060)
 server.connect()
 
 service_inputs_dir = "/home/sherry/Downloads/erai_test/"
-for i in range(2013,2014):
+for i in range(1995,2000):
     year = str(i)
     print("Running streamflow prediction service for "+ year)
 
